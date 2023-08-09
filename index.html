@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MELI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script async src="./index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <form class="search-form">
+          <input
+            class="search-input"
+            type="text"
+            name="buscar"
+            placeholder="Buscar..."
+          />
+          <button class="search-boton">Buscar</button>
+        </form>
+      </div>
+    </header>
+    <div class="content">
+      <h3 class="results-title"><span class="result-count"></span></h3>
+    </div>
+    <template id="template">
+      <div class="results">
+        <div class="result-item">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/3/31/Epic_Games_logo.svg"
+            alt=""
+            class="result-item-img"
+          />
+          <div class="result-item-content">
+            <h4 class="result-item-title">Titulo</h4>
+            <p class="result-item-condition">Nuevo</p>
+            <p class="result-item-sell-count">
+              Vendidos: <span class="result-item-sell-count-numer"></span>
+            </p>
+          </div>
+          <div class="espec">
+            <p class="result-item-price">$1455</p>
+            <p class="vendidoPor">Vendido por</p>
+            <p class="result-seller">pepo</p>
+          </div>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>

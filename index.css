@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: #ededed;
+}
+
+.header {
+  background-color: #fff159;
+  padding: 12px 0;
+}
+
+.header-content {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-input {
+  flex-grow: 1;
+  margin-right: 14px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 60px 10px 15px;
+}
+
+.search-boton {
+  padding: 12px 35px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.result-content {
+  max-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.results-title {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.results {
+  margin-bottom: 20px;
+}
+
+.result-item {
+  border: solid 1px;
+  border-radius: 4px;
+  display: flex;
+  padding: 13px;
+  background-color: #ffffff;
+}
+
+.result-item:hover {
+  box-shadow: 12px 12px 12px -5px rgb(0 0 0 / 30%);
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.result-item-img {
+  max-width: 119px;
+  max-height: 128px;
+  object-fit: cover;
+}
+
+.result-item-content {
+  padding: 0 13px;
+  flex-grow: 1;
+}
+
+.result-item-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.result-item-condition {
+  margin-top: 6px;
+  color: green;
+}
+
+.result-item-sell-count {
+  margin-top: 100px;
+}
+
+.espec {
+  flex-grow: 1;
+}
+
+.result-item-price {
+  text-align: right;
+  font-weight: bold;
+  font-size: 28px;
+  color: #5791a4;
+  margin: 0;
+}
+
+.vendidoPor {
+  text-align: right;
+  font-size: 14px;
+}
+
+.result-seller {
+  color: #3483fa;
+  font-size: 10px;
+  text-align: right;
+  margin: 0;
+}
